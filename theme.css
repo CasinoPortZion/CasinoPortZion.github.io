@@ -1,7 +1,13 @@
 
 /*
-Editor's comment: some larger text on buttons and side navigation for mobile users.
+Editor's comments: 
+
+1. some larger text on buttons and side navigation for mobile users.
+2. a different color scheme for backgrounds, all blue
+3. hyperlinks in silver/underlined instead of blue
+
 original: dsgraham81
+
 
 FOLLOW THIS FORMAT:
 
@@ -323,7 +329,7 @@ h3 {
 }
 
 .good {
-    color: #90ee90;
+    color: #90ee90;                                 /* was lime color - color: #90ee90;
 }
 .bad {
     color: red;
@@ -342,13 +348,13 @@ h3 {
 .good.message
 {
     /* colors */
-    background-color: #40a0ff;                      /* was green */ 
-    color: black;                                   /* wa white */
+    background-color: #40a0ff;                      /* blue tint  was green */ 
+    color: black;                                   /* was white */
 }
 
 .bad.message
 {
-    background-color: #003d7b;                      /* was #400000 */
+    background-color: #003d7b;                      /* blue shade was #400000 */
     color: white;
 }
 
@@ -395,7 +401,7 @@ h3 {
 
     border-color: #103041;
 
-    background: #222526;
+    background: #000033;                                    /* was background: #222526; */
 }
 
 #game-navigation a {
@@ -617,7 +623,7 @@ div.uploader span.action {
     text-align: left;
 }
 
-.game-content form table thead th {
+.game-content form table thead th {                                 /* tables header*/
     font-weight: normal;
     font-size: 14px;
     text-align: center;
@@ -628,8 +634,9 @@ div.uploader span.action {
 .game-content form tbody th {
 }
 
-.game-content form tbody th:first-child {
+.game-content form tbody th:first-child {                           /* tables body*/
     border-left: none;
+    
 }
 
 .game-content form tbody td {
@@ -641,7 +648,7 @@ div.uploader span.action {
 .game-content form tbody tr {
     border: none;
 }
-.game-content form tbody tr:nth-child(even) {
+.game-content form tbody tr:nth-child(even) {                       /* tables body */
     /* display, opacity and special effects*/
     background: rgb(48, 48, 48);
     background: rgba(48, 48, 48, 0.6);
@@ -793,10 +800,10 @@ td.news-province-modification {
 .game-header h1
 {
     height: 20px;
-    margin: 1px 3px;                                /*try margin from 0-2*/
+    margin: 1px 3px;                                        /*try margin from 0-2*/
     padding: 6px 6px 1px 6px;
 
-    font-size: 16px;                                /*try font-size from 14*/                      
+    font-size: 16px;                                        /*try font-size from 14*/                      
     text-decoration: none;
 
     -moz-box-shadow: -1px -1px 1px 1px #788183;
@@ -806,7 +813,7 @@ td.news-province-modification {
     background: #3B4041; /* Old browsers */
 
     color: #CCC;
-    transition: all .75s;                           /* rounded edges */
+    transition: all .75s;                                   /* rounded edges */
     border-radius: 5px 5px 0px 0px;
 }
 
@@ -844,7 +851,7 @@ td.news-province-modification {
     /*box-shadow:         inset 0 0 30px #B5B9BA;*/
 
     /* colors */
-    border-color: #3B4041;
+    border-color: #336600;                                  /* now green was border-color: #3B4041; */
 }
 
 .game-content > div {
@@ -859,10 +866,10 @@ td.news-province-modification {
 }
 
 .game-content thead th {
-    font-weight: normal;
-    font-size: 12px;
-    color : #FFFF99;
-    background-color: #000040;                              /* was 000040 */
+    font-weight: bold;
+    font-size: 14px;                                        /* larger font size */
+    color: #FFFF44;                                         /* now yellow header is more pronounced */
+    background-color: #000033;                              /* was 000040 , 000033 should be more web-safe */
 }
 
 .game-content tbody th {
@@ -886,7 +893,7 @@ td.news-province-modification {
 .game-content tbody tr {
 }
 
-.game-content tbody tr:nth-child(even) {
+.game-content tbody tr:nth-child(even) {                    /* this is where the code for table rows is */
     /* display, opacity and special effects*/
     background: rgb(48, 48, 48);
     background: rgba(48, 48, 48, 0.4);
@@ -929,7 +936,7 @@ td.news-province-modification {
 
 /* GAME PREFERENCES */
 .game-content div.preference-box {
-    background-color: #400000;
+    background-color: #000033;                              /* was 400000
 }
 
 .game-content div.preference-box.disabled {
@@ -944,7 +951,7 @@ div.wysiwyg {                                               /* is this what mess
 
 div.wysiwyg ul.toolbar li {
     background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px;
-    border: 1px outset #83817d;
+    border: 1px;                                            /* was border: 1px outset #83817d; */
 }
 
 body.wysiwyg {
