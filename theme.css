@@ -877,7 +877,7 @@ td.news-province-modification {
 
 .game-content tbody th:first-child {
     border-left: none;
-    background-color: #45ACF6;                              /* added here */
+    /*background-color: #45ACF6;                              added here */
 }
 
 .game-content tbody td {
