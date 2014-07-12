@@ -51,7 +51,7 @@ body {
     line-height: 20px;
 
     /* colors */
-    color: #FFFFFF;                         /* was silver */
+    color: silver;                         /* was silver */
     background-color: #002040;              /* background color added*/
     border-color: #fff;                     /* was 103041 */
 }
@@ -499,7 +499,6 @@ form ul.errorlist {
 .game-content form.change-kingdom {
     /* typography */
     font-size: 14px;
-
     background-color: #000080;                                  /* was 400000 */
 }
 
@@ -793,7 +792,7 @@ td.news-province-modification {
 .game-header h1
 {
     height: 20px;
-    margin: 2px 5px;                                /*try margin from 0-2*/
+    margin: 1px 3px;                                /*try margin from 0-2*/
     padding: 6px 6px 1px 6px;
 
     font-size: 16px;                                /*try font-size from 14*/                      
@@ -872,7 +871,7 @@ td.news-province-modification {
 
 .game-content tbody th:first-child {
     border-left: none;
-    background-color: #000040;                              /* added here */
+    /*background-color: #000040;                               added here */
 }
 
 .game-content tbody td {
