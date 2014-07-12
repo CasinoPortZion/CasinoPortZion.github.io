@@ -65,11 +65,11 @@ body {
 }
 
 #header-navigation div {
-    /* typography */
-    font-size: 20px;                        /*larger for mobile use*/
+    /* typography */                    /*remove code that is not necessary
+    font-size: 20px;                    larger for mobile use
     font-weight: bold;
     text-align: left;
-    line-height: 28px;
+    line-height: 28px;                  */
 
 }
 
