@@ -169,17 +169,21 @@ body {
 }
 
 a {
-    color: #45ACF6;
+    color: silver;                                      /* color: #45ACF6; */
     text-decoration: none;
+    font-size: 14px;                                    /* added , was nothing */
+    text-decoration: underline;                         /* added , was nothing */
 }
 
 a.highlighted {
-    color: #E68910;
+    color: white;                                      /* color: #E68910; */
 }
 
 a:focus,
 a:hover {
     text-decoration: underline;
+    color: white;                                       /* added */
+    font-weight: bold;                                  /* added */
 }
 
 h1,
@@ -412,7 +416,9 @@ h3 {
     padding: 3px 6px 3px 6px;
 
     /* colors */
-    /*color: #45ACF6;                                     /*added this, there was no color*/
+    /*color: #45ACF6;                               /*added this, there was no color*/
+    transition: all .75s;                           /* rounded edges */
+    border-radius: 5px 5px 0px 0px;                 /* rounded edges */
 }
 
 #resource-bar thead {
@@ -424,7 +430,7 @@ h3 {
 
     font-weight: normal;
     
-    color: #fff;                                     /*added this, was color: #fff;*/
+    color: #fff;                                    /*added this, was color: #fff;*/
 }
 
 #resource-bar tbody th,
@@ -491,7 +497,7 @@ form ul.errorlist {
     /* typography */
     font-size: 14px;
 
-    background-color: #400000;
+    background-color: #45ACF6;                                  /* was 400000 */
 }
 
 .game-content form.change-kingdom .change-kingdom-heading {
