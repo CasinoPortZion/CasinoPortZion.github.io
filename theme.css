@@ -502,7 +502,7 @@ form ul.errorlist {
     /* typography */
     font-size: 14px;
 
-    background-color: #45ACF6;                                  /* was 400000 */
+    background-color: #400000;                                  /* was 400000 */
 }
 
 .game-content form.change-kingdom .change-kingdom-heading {
