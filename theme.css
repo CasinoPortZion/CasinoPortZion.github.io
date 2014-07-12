@@ -1053,5 +1053,6 @@ body.wysiwyg {
 }
 
 #throne-monarch-message {
-    color: #FFFF99;
+    font-size: 14px;                    /* larger font size */
+    color: #FFFF44;                     /* little bit more yellow than #FFFF99 */
 }
