@@ -56,7 +56,7 @@ body {
     /* colors */
     color: #fff;                                /* was silver */
     background-color: #002040;                  /* background color added*/
-    border-color: silver;                       /* was 103041 */
+    border-color: #070a0d;                      /* was 103041 / silver */
     
 }
 
@@ -79,8 +79,8 @@ body {
 
     /* colors */
     color: silver;                          
-    background-color: #000000 ;                 /* background color added*/
-    border-color: #103041;                  
+    background-color: #000000 ;                 /* background color added */
+    border-color: #070a0d;                      /* was border-color: #103041; */
 }
 
 #header-navigation div:hover a  {
@@ -397,8 +397,7 @@ h3 {
     -webkit-border-radius: 2px;
 
     border-color: #103041;
-
-    background: #000033;                                    /* was background: #222526; */
+    background: #333333;                                    /* was background: #222526; */
 }
 
 #game-navigation a {
