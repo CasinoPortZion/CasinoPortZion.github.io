@@ -546,19 +546,19 @@ form .errorlist {
 
 form input[type=submit],
 .button-link {
-    /* positioning and size */
-    border: 1px solid;
-    padding: 3px 3px 3px 3px;
+    /* positioning and size */                      /*remove most of the button settings, hoping to fix the buttons on mobile platforms*/
+    border: 1px solid;                              
+    padding: 1px 1px 1px 1px;       /* was 3-3-3-3
 
-    /* border styling */
+    /* border styling */            /*
     border-radius: 4px;
     -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
+    -webkit-border-radius: 4px;     */
 
     /* internal styling - padding etc. */
     /* typography */
-    font-size: 24px;                                /*set to 24 from 12 for mobile use*/
-    font-weight: normal;
+    font-size: 20px;                                /*set to 20 from 12 for mobile use*/
+    font-weight: bold;                              /*set to bold from normal*/
 
     /* colors */
     background-color: #D8D8D8;
