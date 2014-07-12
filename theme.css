@@ -71,7 +71,14 @@ body {
     font-weight: bold;
     text-align: left;
     line-height: 28px;                  */
+    font-size: 14px;                        /*larger for mobile use*/
+    font-weight: bold;
+    text-align: left;
+    line-height: 20px;
 
+    /* colors */
+    background-color: #000000 ;             /* background color added*/
+    border-color: #103041;                  /* was 103041 */
 }
 
 #header-navigation div:hover a  {
