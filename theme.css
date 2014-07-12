@@ -51,7 +51,8 @@ body {
     line-height: 20px;
 
     /* colors */
-    border-color: #103041;
+    background-color: #45ACF6 ;             /* background color added*/
+    border-color: #002040;                  /* was 103041 */
 }
 
 .navigation a {
