@@ -51,14 +51,14 @@ body {
     line-height: 20px;
 
     /* colors */
-    color: #fff;                            /* was silver */
+    color: white;                            /* was silver */
     background-color: #45ACF6 ;             /* background color added*/
     border-color: #002040;                  /* was 103041 */
 }
 
 .navigation a {
     text-decoration: none;
-    color: #fff;                            /* was silver */
+    color: white;                            /* was silver */
 }
 
 .navigation a:hover  {
