@@ -23,10 +23,6 @@ FOLLOW THIS FORMAT:
 */
 
 
-
-
-
-
 body {
     color: #FFFFFE;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -47,7 +43,8 @@ body {
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-
+    border-radius: 2px 2px 2px 2px;             /* added here */
+    
     /* internal styling - padding etc. */
 
     /* typography */
@@ -60,7 +57,7 @@ body {
     color: #fff;                                /* was silver */
     background-color: #002040;                  /* background color added*/
     border-color: silver;                       /* was 103041 */
-    border-radius: 2px 2px 2px 2px;
+    
 }
 
 .navigation a {
@@ -329,7 +326,7 @@ h3 {
 }
 
 .good {
-    color: #90ee90;                                 /* was lime color - color: #90ee90;
+    color: #90ee90;                                 /* was lime color - color: #90ee90; */
 }
 .bad {
     color: red;
@@ -851,7 +848,7 @@ td.news-province-modification {
     /*box-shadow:         inset 0 0 30px #B5B9BA;*/
 
     /* colors */
-    border-color: #45ACF6;                                  /* now UpoopU-blue was border-color: #3B4041; */
+    border-color: #7aa3c2;                                  /* was UpoopU-blue #45ACF6, was border-color: #3B4041; */
 }
 
 .game-content > div {
