@@ -45,9 +45,10 @@ body {
     /* internal styling - padding etc. */
 
     /* typography */
-    font-size: 20px;        /*larger for mobile use*/
-    font-weight: normal;    
+    font-size: 20px;                        /*larger for mobile use*/
+    font-weight: bold;
     text-align: left;
+    line-height: 28px;
 
     /* colors */
     border-color: #103041;
@@ -64,6 +65,11 @@ body {
 }
 
 #header-navigation div {
+    /* typography */
+    font-size: 20px;                        /*larger for mobile use*/
+    font-weight: bold;
+    text-align: left;
+    line-height: 28px;
 
 }
 
