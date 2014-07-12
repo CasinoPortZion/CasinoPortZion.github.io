@@ -412,6 +412,7 @@ h3 {
     padding: 3px 6px 3px 6px;
 
     /* colors */
+    /*color: #45ACF6;                                     /*added this, there was no color*/
 }
 
 #resource-bar thead {
@@ -422,7 +423,8 @@ h3 {
     padding: 3px 6px 3px 6px;
 
     font-weight: normal;
-    color: #fff;
+    
+    color: #fff;                                     /*added this, was color: #fff;*/
 }
 
 #resource-bar tbody th,
@@ -434,19 +436,19 @@ h3 {
     font-weight: lighter;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     text-align: right;
-    color: #fff;
+    color: #fff;                                     /*added this, was color: #fff;*/
 }
 
 #resource-bar tbody th {
-    background-color: #400000;
+    background-color: #45ACF6;                      /* was color: #400000*/
 }
 
 #resource-bar tbody td {
-    background-color: #1A1A1A;
+    background-color: #1A1A1A;                      /* was color: #1A1A1A*/
 }
 
 #resource-bar thead th {
-    background-color: #400000;
+    background-color: #400000;                      /* was color: #400000*/
 }
 
 
