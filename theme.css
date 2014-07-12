@@ -448,8 +448,8 @@ h3 {
 
 #resource-bar tbody th {
     background-color: #45ACF6;                      /* was color: #400000*/
-    transition: all .75s;                           /*rounded edges*/
-    border-radius: 5px 5px 0px 0px;
+    /*transition: all .75s;                         rounded edges
+    border-radius: 5px 5px 0px 0px;*/
 }
 
 #resource-bar tbody td {
@@ -458,8 +458,8 @@ h3 {
 
 #resource-bar thead th {
     background-color: #45ACF6;                      /* was color: #400000*/
-    transition: all .75s;                           /*rounded edges*/
-    border-radius: 0px 0px 5px 5px;
+    /*transition: all .75s;                         rounded edges
+    border-radius: 0px 0px 5px 5px;*/
 }
 
 
