@@ -51,9 +51,9 @@ body {
     line-height: 20px;
 
     /* colors */
-    color: white;                            /* was silver */
-    background-color: #45ACF6 ;             /* background color added*/
-    border-color: #002040;                  /* was 103041 */
+    color: #FFFFFF;                         /* was silver */
+    background-color: #002040;              /* background color added*/
+    border-color: #fff;                     /* was 103041 */
 }
 
 .navigation a {
@@ -67,20 +67,16 @@ body {
 }
 
 #header-navigation div {
-    /* typography */                    /*remove code that is not necessary
-    font-size: 20px;                    larger for mobile use
-    font-weight: bold;
-    text-align: left;
-    line-height: 28px;                  */
+    /* typography */                        
     font-size: 14px;                        /*larger for mobile use*/
     font-weight: bold;
     text-align: left;
     line-height: 20px;
 
     /* colors */
-    color: #fff;                            /* was silver */
+    color: silver;                          
     background-color: #000000 ;             /* background color added*/
-    border-color: #103041;                  /* was 103041 */
+    border-color: #103041;                  
 }
 
 #header-navigation div:hover a  {
@@ -180,7 +176,6 @@ body {
 
 a {
     color: silver;                                      /* color: #45ACF6; */
-    text-decoration: none;
     font-size: 14px;                                    /* added , was nothing */
     text-decoration: underline;                         /* added , was nothing */
 }
@@ -199,7 +194,7 @@ a:hover {
 h1,
 h2,
 h3 {
-    color: silver;
+    color: white;
     font-weight: normal;
 }
 
@@ -346,13 +341,13 @@ h3 {
 .good.message
 {
     /* colors */
-    background-color: green;
-    color: white;
+    background-color: #40a0ff;                      /* was green */ 
+    color: black;                                   /* wa white */
 }
 
 .bad.message
 {
-    background-color: #400000;
+    background-color: #003d7b;                      /* was #400000 */
     color: white;
 }
 
@@ -426,9 +421,6 @@ h3 {
     padding: 3px 6px 3px 6px;
 
     /* colors */
-    /*color: #45ACF6;                               /*added this, there was no color*/
-    /*transition: all .75s;                         rounded edges 
-    border-radius: 5px 5px 0px 0px;                 rounded edges */
 }
 
 #resource-bar thead {
@@ -458,8 +450,6 @@ h3 {
 
 #resource-bar tbody th {
     background-color: #45ACF6;                      /* was color: #400000*/
-    /*transition: all .75s;                         rounded edges
-    border-radius: 5px 5px 0px 0px;*/
 }
 
 #resource-bar tbody td {
@@ -468,8 +458,6 @@ h3 {
 
 #resource-bar thead th {
     background-color: #45ACF6;                      /* was color: #400000*/
-    /*transition: all .75s;                         rounded edges
-    border-radius: 0px 0px 5px 5px;*/
 }
 
 
@@ -818,11 +806,8 @@ td.news-province-modification {
     background: #3B4041; /* Old browsers */
 
     color: #CCC;
-                                            /*no more rounded edges
-    transition: all .75s;
-
+    transition: all .75s;                           /* rounded edges */
     border-radius: 5px 5px 0px 0px;
-                                            */
 }
 
 .game-header a h1 {
