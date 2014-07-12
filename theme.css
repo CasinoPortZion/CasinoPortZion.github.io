@@ -179,19 +179,19 @@ body {
 }
 
 a {
-    color: silver;                                      /* color: #45ACF6; */
+    color: #99ccff;                                      /* color: #45ACF6; */
     font-size: 14px;                                    /* added , was nothing */
     text-decoration: underline;                         /* added , was nothing */
 }
 
 a.highlighted {
-    color: white;                                      /* color: #E68910; */
+    color: #E68910;                                      /* color: #E68910; */
 }
 
 a:focus,
 a:hover {
     text-decoration: underline;
-    color: white;                                       /* added */
+    color: #0099ff;                                       /* added */
     font-weight: bold;                                  /* added */
 }
 
