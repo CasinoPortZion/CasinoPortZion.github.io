@@ -782,10 +782,10 @@ td.news-province-modification {
 .game-header h1
 {
     height: 20px;
-    margin: 0px 2px;
+    margin: 2px 5px;                                /*try margin from 0-2*/
     padding: 6px 6px 1px 6px;
 
-    font-size: 14px;
+    font-size: 16px;                                /*try font-size from 14*/                      
     text-decoration: none;
 
     -moz-box-shadow: -1px -1px 1px 1px #788183;
@@ -795,11 +795,11 @@ td.news-province-modification {
     background: #3B4041; /* Old browsers */
 
     color: #CCC;
-
+                                            /*no more rounded edges
     transition: all .75s;
 
     border-radius: 5px 5px 0px 0px;
-
+                                            */
 }
 
 .game-header a h1 {
