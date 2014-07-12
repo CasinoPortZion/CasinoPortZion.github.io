@@ -45,10 +45,10 @@ body {
     /* internal styling - padding etc. */
 
     /* typography */
-    font-size: 20px;                        /*larger for mobile use*/
+    font-size: 16px;                        /*larger for mobile use*/
     font-weight: bold;
     text-align: left;
-    line-height: 28px;
+    line-height: 20px;
 
     /* colors */
     border-color: #103041;
