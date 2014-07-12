@@ -45,20 +45,21 @@ body {
     /* internal styling - padding etc. */
 
     /* typography */
-    font-size: 16px;                        /*larger for mobile use*/
+    font-size: 16px;                            /*larger for mobile use*/
     font-weight: bold;
     text-align: left;
     line-height: 20px;
 
     /* colors */
-    color: silver;                         /* was silver */
-    background-color: #002040;              /* background color added*/
-    border-color: #fff;                     /* was 103041 */
+    color: #fff;                                /* was silver */
+    background-color: #002040;                  /* background color added*/
+    border-color: silver;                       /* was 103041 */
+    border-radius: 2px 2px 2px 2px;
 }
 
 .navigation a {
     text-decoration: none;
-    color: white;                            /* was silver */
+    color: white;                               /* was silver */
 }
 
 .navigation a:hover  {
@@ -68,14 +69,14 @@ body {
 
 #header-navigation div {
     /* typography */                        
-    font-size: 14px;                        /*larger for mobile use*/
+    font-size: 14px;                            /*larger for mobile use*/
     font-weight: bold;
     text-align: left;
     line-height: 20px;
 
     /* colors */
     color: silver;                          
-    background-color: #000000 ;             /* background color added*/
+    background-color: #000000 ;                 /* background color added*/
     border-color: #103041;                  
 }
 
