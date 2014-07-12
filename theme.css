@@ -51,6 +51,7 @@ body {
     line-height: 20px;
 
     /* colors */
+    color: #fff;                            /* was silver */
     background-color: #45ACF6 ;             /* background color added*/
     border-color: #002040;                  /* was 103041 */
 }
@@ -77,6 +78,7 @@ body {
     line-height: 20px;
 
     /* colors */
+    color: #fff;                            /* was silver */
     background-color: #000000 ;             /* background color added*/
     border-color: #103041;                  /* was 103041 */
 }
