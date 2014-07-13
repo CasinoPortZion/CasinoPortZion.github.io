@@ -36,7 +36,7 @@ body {
     position: absolute;                                                     
 }
 
-.navigation {
+.navigation {                                   /* side navigation (throne, kingdom, etc) */
 
     /* border styling */
     border: 2px solid;
@@ -55,28 +55,28 @@ body {
     line-height: 20px;
 
     /* colors */
-    color: white;                                /* was silver */
+    color: #FFFFFF;                                /* was silver */
     background-color: #002040;                  /* background color added*/
     border-color: #070a0d;                      /* was 103041 / silver */
     
 }
 
-.navigation a {
+.navigation a {                                 /* side navigation (throne, kingdom, etc) */
     font-size: 16px;                            /* added this here */
     font-weight: bold;                          /* added this here */
     text-decoration: none;
-    color: white;                               /* was silver */
+    color: #FFFFFF;                               /* was silver */
 }
 
-.navigation a:hover  {
+.navigation a:hover  {                          /* side navigation (throne, kingdom, etc) */
     /* colors */
     font-size: 16px;                            /* added this here */
     font-weight: bold;                          /* added this here */
-    text-decoration: none;                      /* added this here */
-    color: white;
+    text-decoration: underline;                 /* added this here */
+    color: #FFFFFF;
 }
 
-#header-navigation div {
+#header-navigation div {                        /* top navigation (lobby, etc) */
     /* typography */                        
     font-size: 16px;                            /*larger for mobile use*/
     font-weight: bold;
@@ -90,20 +90,26 @@ body {
     border-color: #070a0d;                      /* was border-color: #103041; */
 }
 
-#header-navigation div:hover a  {
+#header-navigation div:hover a  {               /* top navigation (lobby, etc) */
     /* colors */
     color: #45ACF6;                             /* was white */
     text-decoration: none;
 }
 
-#header-navigation div:hover {
+#header-navigation div:hover {                  /* top navigation (lobby, etc) */
     /* colors */
-    background: #103041;
+    background: #000022;                        /* was  background: #103041;  */
 
     /* display, opacity and special effects */
-    -moz-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 4px #7c4a14, 0px 8px 10px -6px #fff;;
-    -webkit-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 4px #7c4a14, 0px 8px 10px -6px #fff;;
-    box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000, 0px -8px 8px -6px #fff;
+    -moz-box-shadow:    1px -1px 2px 0px #fffbf1, inset 0px 0px 4px #7c4a14,    0px 8px 10px -6px #fff;;
+    -webkit-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 4px #7c4a14,    0px 8px 10px -6px #fff;;
+    box-shadow:         1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000,       0px -8px 8px -6px #fff;
+    
+    /* originally 
+    -moz-box-shadow:    1px -1px 2px 0px #fffbf1, inset 0px 0px 4px #7c4a14,    0px 8px 10px -6px #fff;;
+    -webkit-box-shadow: 1px -1px 2px 0px #fffbf1, inset 0px 0px 4px #7c4a14,    0px 8px 10px -6px #fff;;
+    box-shadow:         1px -1px 2px 0px #fffbf1, inset 0px 0px 6px #000,       0px -8px 8px -6px #fff;
+    */
 }
 
 #account-container {
