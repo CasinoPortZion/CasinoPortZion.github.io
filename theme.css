@@ -359,7 +359,7 @@ h3 {
 
 .bad.message
 {
-    background-color: #003d7b;                      /* blue shade was #400000 */
+    background-color: #003366;                      /* was #003d7b, blue shade was #400000 */
     color: black;                                   /* was white */
 }
 
@@ -804,10 +804,10 @@ td.news-province-modification {
 .game-header h1
 {
     height: 20px;
-    margin: 1px 3px;                                        /*try margin from 0-2*/
+    margin: 0px 2px;                                        /*try margin from 0-2*/
     padding: 6px 6px 1px 6px;
 
-    font-size: 16px;                                        /*try font-size from 14*/                      
+    font-size: 18px;                                        /*try font-size from 14*/                      
     text-decoration: none;
 
     -moz-box-shadow: -1px -1px 1px 1px #788183;
@@ -817,8 +817,8 @@ td.news-province-modification {
     background: #3B4041; /* Old browsers */
 
     color: #CCC;
-    transition: all .75s;                                   /* rounded edges */
-    border-radius: 5px 5px 0px 0px;
+    /* transition: all .75s;    */                               /* rounded edges */
+    /* border-radius: 5px 5px 0px 0px;  */                      /* rounded edges */
 }
 
 .game-header a h1 {
@@ -832,7 +832,7 @@ td.news-province-modification {
 
 .game-header a h1:hover
 {
-    background: #3B4041; /* Old browsers */
+    background: #45ACF6; /* Old browsers */                 /* was #3B4041 */
 
     color: #fff;
 
@@ -869,7 +869,7 @@ td.news-province-modification {
     font-size: 14px;
 }
 
-.game-content thead th {
+.game-content thead th {                                    /* table header */
     font-weight: bold;
     font-size: 14px;                                        /* larger font size */
     color: #FFFF44;                                         /* now yellow header is more pronounced */
@@ -890,7 +890,7 @@ td.news-province-modification {
     padding-right: 20px;
 }
 
-.game-content tbody td.forum-moderator-buttons {
+.game-content tbody td.forum-moderator-buttons {        
     padding-right: 10px;
 }
 
@@ -920,21 +920,26 @@ td.news-province-modification {
 }
 
 .two-digit-input {
+    height: 20px;                                       /* trying some different heights */
     width: 30px;
 }
 .three-digit-input {
+    height: 20px;                                       /* trying some different heights */
     width: 40px;
 }
 
 .four-digit-input {
+    height: 20px;                                       /* trying some different heights */
     width: 50px;
 }
 
 .five-digit-input {
+    height: 20px;                                       /* trying some different heights */
     width: 60px;
 }
 
 .six-digit-input {
+    height: 20px;                                       /* trying some different heights */
     width: 70px;
 }
 
