@@ -61,6 +61,8 @@ body {
 }
 
 .navigation a {
+    font-size: 14px;                            /* added this here */
+    font-weight: bold;                          /* added this here -*
     text-decoration: none;
     color: white;                               /* was silver */
 }
@@ -344,6 +346,7 @@ h3 {
 
 .good.message
 {
+    font-size: 14px;                                /* added larger font size */
     /* colors */
     background-color: #40a0ff;                      /* blue tint  was green */ 
     color: white;                                   /* was white */
