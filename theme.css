@@ -346,7 +346,7 @@ h3 {
 {
     /* colors */
     background-color: #40a0ff;                      /* blue tint  was green */ 
-    color: black;                                   /* was white */
+    color: white;                                   /* was white */
 }
 
 .bad.message
