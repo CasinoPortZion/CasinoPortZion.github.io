@@ -74,6 +74,7 @@ body {
     font-weight: bold;                          /* added this here */
     text-decoration: underline;                 /* added this here */
     color: #FFFFFF;
+    background: #45ACF6;
 }
 
 #header-navigation div {                        /* top navigation (lobby, etc) */
