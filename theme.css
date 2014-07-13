@@ -41,9 +41,12 @@ body {
     /* border styling */
     border: 2px solid;
     /* border-radius: 2px; */                   /* removed this line */
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px 2px 2px 2px;             /* added here */
+    
+    /*
+    -moz-border-radius: 2px;                        removed
+    -webkit-border-radius: 2px;                     removed
+    border-radius: 2px 2px 2px 2px;                 added here 
+    */
     
     /* internal styling - padding etc. */
 
@@ -73,8 +76,8 @@ body {
     font-size: 16px;                            /* added this here */
     font-weight: bold;                          /* added this here */
     text-decoration: underline;                 /* added this here */
-    color: #FFFFFF;
-    background: #45ACF6;
+                                                /* color: #FFFFFF;
+                                                    background: #000000; */
 }
 
 #header-navigation div {                        /* top navigation (lobby, etc) */
@@ -95,11 +98,12 @@ body {
     /* colors */
     color: #45ACF6;                             /* was white */
     text-decoration: none;
+    text-decoration: underline;
 }
 
 #header-navigation div:hover {                  /* top navigation (lobby, etc) */
     /* colors */
-    background: #000022;                        /* was  background: #103041;  */
+    background: #000000;                        /* was  background: #103041;  */
 
     /* display, opacity and special effects */
     -moz-box-shadow:    1px -1px 2px 0px #fffbf1, inset 0px 0px 4px #7c4a14,    0px 8px 10px -6px #fff;;
