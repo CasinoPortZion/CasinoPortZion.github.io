@@ -208,9 +208,9 @@ a.highlighted {
 
 a:focus,
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;                              /* highlighted */
     color: #0099ff;                                       /* added */
-    font-weight: bold;                                  /* added */
+    font-weight: normal;                                  /* added */
 }
 
 h1,
@@ -931,26 +931,26 @@ td.news-province-modification {
 }
 
 .two-digit-input {
-    height: 20px;                                       /* trying some different heights */
+    /*height: 20px;                                       /* trying some different heights */
     width: 30px;
 }
 .three-digit-input {
-    height: 20px;                                       /* trying some different heights */
+    /*height: 20px;                                       /* trying some different heights */
     width: 40px;
 }
 
 .four-digit-input {
-    height: 20px;                                       /* trying some different heights */
+    /*height: 20px;                                       /* trying some different heights */
     width: 50px;
 }
 
 .five-digit-input {
-    height: 20px;                                       /* trying some different heights */
+    /*height: 20px;                                       /* trying some different heights */
     width: 60px;
 }
 
 .six-digit-input {
-    height: 20px;                                       /* trying some different heights */
+    /*height: 20px;                                       /* trying some different heights */
     width: 70px;
 }
 
