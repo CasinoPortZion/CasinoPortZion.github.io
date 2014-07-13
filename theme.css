@@ -371,7 +371,7 @@ h3 {
 .bad.message
 {
     background-color: #003366;                      /* was #003d7b, blue shade was #400000 */
-    color: black;                                   /* was white */
+    color: silver;                                   /* was white */
 }
 
 .info.message
