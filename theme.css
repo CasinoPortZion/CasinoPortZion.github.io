@@ -40,7 +40,7 @@ body {
 
     /* border styling */
     border: 2px solid;
-    border-radius: 2px;
+    /* border-radius: 2px; */                   /* removed this line */
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px 2px 2px 2px;             /* added here */
@@ -50,18 +50,19 @@ body {
     /* typography */
     font-size: 16px;                            /*larger for mobile use*/
     font-weight: bold;
+    text-decoration: none;
     text-align: left;
     line-height: 20px;
 
     /* colors */
-    color: #fff;                                /* was silver */
+    color: white;                                /* was silver */
     background-color: #002040;                  /* background color added*/
     border-color: #070a0d;                      /* was 103041 / silver */
     
 }
 
 .navigation a {
-    font-size: 14px;                            /* added this here */
+    font-size: 16px;                            /* added this here */
     font-weight: bold;                          /* added this here */
     text-decoration: none;
     color: white;                               /* was silver */
@@ -69,25 +70,29 @@ body {
 
 .navigation a:hover  {
     /* colors */
+    font-size: 16px;                            /* added this here */
+    font-weight: bold;                          /* added this here */
+    text-decoration: none;                      /* added this here */
     color: white;
 }
 
 #header-navigation div {
     /* typography */                        
-    font-size: 14px;                            /*larger for mobile use*/
+    font-size: 16px;                            /*larger for mobile use*/
     font-weight: bold;
+    text-decoration: none;                      /* added this here */
     text-align: left;
     line-height: 20px;
 
     /* colors */
-    color: silver;                          
+    color: white;                          
     background-color: #000000 ;                 /* background color added */
     border-color: #070a0d;                      /* was border-color: #103041; */
 }
 
 #header-navigation div:hover a  {
     /* colors */
-    color: white;
+    color: #45ACF6;                             /* was white */
     text-decoration: none;
 }
 
