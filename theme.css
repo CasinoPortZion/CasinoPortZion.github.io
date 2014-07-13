@@ -62,7 +62,7 @@ body {
 
 .navigation a {
     font-size: 14px;                            /* added this here */
-    font-weight: bold;                          /* added this here -*
+    font-weight: bold;                          /* added this here */
     text-decoration: none;
     color: white;                               /* was silver */
 }
