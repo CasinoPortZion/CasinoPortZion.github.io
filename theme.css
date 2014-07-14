@@ -210,7 +210,7 @@ a:focus,
 a:hover {
     text-decoration: none;                              /* highlighted */
     color: #0099ff;                                       /* added */
-    font-weight: bold;                                  /* added */
+    font-weight: normal;                                  /* added */
 }
 
 h1,
