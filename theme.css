@@ -210,7 +210,7 @@ a:focus,
 a:hover {
     text-decoration: none;                              /* highlighted */
     color: #0099ff;                                       /* added */
-    font-weight: normal;                                  /* added */
+    font-weight: bold;                                  /* added */
 }
 
 h1,
@@ -371,7 +371,7 @@ h3 {
 .bad.message
 {
     background-color: #003366;                      /* was #003d7b, blue shade was #400000 */
-    color: silver;                                   /* was white */
+    color: #CCCCCC;                                   /* was white */
 }
 
 .info.message
